@@ -1,0 +1,42 @@
+/* --- ******  PARAMETRAGE DES ELEMENTS GLOBAUX DU SITE  ****** --- */
+*, ::after,::before {
+    box-sizing: border-box;
+}
+*{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0.4rem;
+}
+h1{
+    font-size: 2.6em;
+    line-height: 1.5;
+}
+html {
+    margin: 0;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 10px;
+    height: 100%;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 1.8em;  
+    background-color: var(--background-color);
+}
+
+:root{
+    --background-color: #D8ECF2;
+    --text-color:#435363;
+    --border-color:#43536315;
+    --color-link-1:#95C5DB;
+    --color-link-2:#94C1DB;
+    --color-link-3:#94BDDB;
+    --color-link-4:#94B9DB;
+    --color-link-5:#94B5DB;
+}
+.footer{
+    text-align: center;
+}
